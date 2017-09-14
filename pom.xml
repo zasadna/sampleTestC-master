@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
--<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
 
 <modelVersion>4.0.0</modelVersion>
 
 <groupId>testSample</groupId>
-    <artifactId>sample</artifactId>
-    <version>1.0-SNAPSHOT</version>
+<artifactId>sample</artifactId>
+<version>1.0-SNAPSHOT</version>
 
 
--<properties>
+<properties>
 
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -30,10 +30,10 @@
 </properties>
 
 
--<dependencies>
+<dependencies>
 
 
--<dependency>
+<dependency>
 
 <groupId>mysql</groupId>
 
@@ -44,7 +44,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>com.jcraft</groupId>
 
@@ -55,7 +55,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>io.rest-assured</groupId>
 
@@ -68,7 +68,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>io.rest-assured</groupId>
 
@@ -79,7 +79,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>io.rest-assured</groupId>
 
@@ -92,7 +92,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>ru.yandex.qatools.allure</groupId>
 
@@ -103,7 +103,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>org.testng</groupId>
 
@@ -119,7 +119,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>ch.qos.logback</groupId>
 
@@ -130,7 +130,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>org.seleniumhq.selenium</groupId>
 
@@ -143,13 +143,9 @@
 </dependencies>
 
 
--<build>
+<build>
 
-
--<plugins>
-
-
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
@@ -160,7 +156,7 @@
 </plugin>
 
 
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
@@ -217,10 +213,10 @@
 </configuration>
 
 
--<dependencies>
+<dependencies>
 
 
--<dependency>
+<dependency>
 
 <groupId>org.aspectj</groupId>
 
@@ -232,7 +228,6 @@
 
 </dependencies>
 
->
 
 </plugins>
 
