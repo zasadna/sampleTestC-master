@@ -169,11 +169,6 @@
             <configuration>
 
 
-                <suiteXmlFiles>
-
-                    <suiteXmlFile>src\test\resources\testng-api777score.xml</suiteXmlFile>
-
-                </suiteXmlFiles>
 
                 <testFailureIgnore>true</testFailureIgnore>
 
