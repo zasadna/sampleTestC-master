@@ -165,10 +165,10 @@
 <version>2.19.1</version>
 
 
--<configuration>
+<configuration>
 
 
--<suiteXmlFiles>
+<suiteXmlFiles>
 
 <suiteXmlFile>src\test\resources\testng-api777score.xml</suiteXmlFile>
 
@@ -193,14 +193,14 @@
 </properties>
 
 
--<systemProperties>
+<systemProperties>
 
 
--<property>
+<property>
 
-<name>allure.results.directory</name>
+  <name>allure.results.directory</name>
 
-<value>${project.build.directory}/allure-results</value>
+  <value>${project.build.directory}/allure-results</value>
 
 </property>
 
@@ -215,16 +215,15 @@
 
 <dependencies>
 
+  <dependency>
 
-<dependency>
+    <groupId>org.aspectj</groupId>
 
-<groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
 
-<artifactId>aspectjweaver</artifactId>
+    <version>${aspectj.version}</version>
 
-<version>${aspectj.version}</version>
-
-</dependency>
+  </dependency>
 
 </dependencies>
 
