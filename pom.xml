@@ -124,7 +124,7 @@
                     <!--<testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>-->
                     <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/testNG.xml</suiteXmlFile>
+                        <suiteXmlFile>src\test\resources\testNG.xml</suiteXmlFile>
                         <!--<suiteXmlFile>src\test\resources\testNG.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
