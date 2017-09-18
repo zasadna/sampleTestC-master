@@ -4,11 +4,6 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-/**
- * Created by kate on 1/12/16.
- */
-
-
 public class AddTwoValuesTests {
 
     Calculator calc = new Calculator();
@@ -72,8 +67,8 @@ public class AddTwoValuesTests {
         System.out.println("testRootPositiveValues() root 16 must be 4");
     }
 
-   // @Test
-   // public void testRootNegativeValues() { assertEquals("-10 + -5 must be -15", calc.root(-16)); } impossible
+    // @Test
+    // public void testRootNegativeValues() { assertEquals("-10 + -5 must be -15", calc.root(-16)); } impossible
 
 
     //mXOR
