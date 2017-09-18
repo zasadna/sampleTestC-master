@@ -120,7 +120,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>
+                    <!--<testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>-->
                     <!--<testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>-->
                     <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
                     <suiteXmlFiles>
