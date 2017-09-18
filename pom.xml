@@ -104,7 +104,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>resources\testNG.xml</suiteXmlFile>
+                        <suiteXmlFile>C:\Users\Olga\.jenkins\workspace\sampleTestC-master\resources\testNG.xml</suiteXmlFile>
                         <!--<suiteXmlFile>src\test\resources\testNG.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
